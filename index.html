@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./css/portfolio.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/03d394caa7.js" crossorigin="anonymous"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+  <section id="one">
+    <!--header section start-->
+
+    <!-- Header starts -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="./images/logo.png" alt="logo" class="logo" /> -->
+          <h1 style="color: white; font-style: italic; font-size: xx-large">
+            Port<span>folio</span>
+          </h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-solid fa-xmark fa-fade color" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars fa-fade color" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi&#x2c; I&apos;m <span>Swetha</span> <br />From Tiruppur</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Header ends -->
+
+    <!-- header section ends -->
+
+    <!---About section start--->
+
+    <div id="about">
+      <h1 class="sub-title">About<span> Me</span></h1>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/img.jpeg" alt="" srcset="" />
+          </div>
+          <div class="about-col-2">
+            <p class="sub-con">
+              Hello, I am Swetha from Tirupur. I am a Frontend developer. I can
+              provide clean code and pixel perfect design. I also make the
+              website more & more interactive with web animations.A
+              responsive design makes your website accessible to all users,
+              regardless of their device.
+            </p>
+            <a href="./images/portfolio resume.pdf" download class="btn btn2 vc">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-contents" id="video">
+      <h1 class="sub-title">Self <span>Intro</span></h1>
+      <iframe width="1080" height="400" src="https://www.youtube.com/embed/yyEemxGzyyA?si=MqKGx6mB3WuGsT2S"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+    <!-- About section end -->
+    <!-- <section class="vdo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yyEemxGzyyA?si=MqKGx6mB3WuGsT2S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section> -->
+
+    <!---skills-->
+    <div id="skill">
+      <div class="skills">
+        <h1>My <span>Skills</span></h1>
+
+        <li>
+          <h3>html</h3>
+          <span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+          <h3>css</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+          <h3>javascript</h3>
+          <span class="bar"><span class="javascript"></span></span>
+        </li>
+      </div>
+    </div>
+
+    <!--project-->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My<span> Project</span></h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/project1.gif" height="180px" alt="" />
+            <div class="layer">
+              <h3>Ball Movement</h3>
+              <a href="https://swetha-mca23.github.io/Moving-ball/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Moving-ball"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/pr2.gif" alt="" />
+            <div class="layer">
+              <h3>Random Ball</h3>
+              <a href="https://swetha-mca23.github.io/Random-ball/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Random-ball"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project3.webp" alt="" />
+            <div class="layer">
+              <h3>Pacman</h3>
+              <a href="https://swetha-mca23.github.io/pacman/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/pacman"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project4.jpg" alt="" />
+            <div class="layer">
+              <h3>Boston Data</h3>
+              <a href="https://swetha-mca23.github.io/Boston-1/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Boston-1"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project5.jpg" alt="" />
+            <div class="layer">
+              <h3>Word Count</h3>
+              <a href="https://swetha-mca23.github.io/Word_Count/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Word_Count"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project6.jpeg" height="180px" alt="" />
+            <div class="layer">
+              <h3>Pacman game</h3>
+              <a href="https://swetha-mca23.github.io/pacman_game/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/pacman_game"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project7.jpeg" alt="" />
+            <div class="layer">
+              <h3>Eyeball Movement</h3>
+              <a href="https://swetha-mca23.github.io/Eyeball_Movement/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Eyeball_Movement"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project8.gif" alt="" />
+            <div class="layer">
+              <h3>Map</h3>
+              <a href="https://swetha-mca23.github.io/Map/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Map"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/project9.jpeg" alt="" />
+            <div class="layer">
+              <h3>Tower</h3>
+              <a href="https://swetha-mca23.github.io/Tower/"><i class='bx bx-link-alt'></i></a>
+              <a target="_blank" href="https://github.com/swetha-mca23/Tower"><i
+                  class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--contact details-->
+
+    <div id="contact">
+      <h1 class="sub-title">Contact<span> Me</span></h1>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <p><i class="fa-solid fa-paper-plane"></i> swethak0403@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 9150773103</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61552252312914&mibextid=ZbWKwL"><i
+                  class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://instagram.com/call_me_zwe?igshid=OGQ5ZDc2ODk2ZA=="><i
+                  class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/swetha-k-00b665296/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <form action="https://formsubmit.co/swethak0403@gmail.com" method="POST">
+            <input type="text" name="Name" placeholder="Your name" id="" required />
+            <input type="email" name="Email" placeholder="Your Email" id="" required />
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">Send Message</button>
+          </form>
+          <!-- <div class="contact-right">
+              <form name="submit-to-google-sheet">
+               
+                
+              </form>
+              <span id="alert"></span>
+            </div>
+          </div> -->
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright &copy; <span id="year"></span> Swetha. Made
+            <i class="fa-solid fa-heart"></i> by Swetha
+          </p>
+        </div>
+      </div>
+      <!-- Contact ends -->
+
+  </section>
+  <script>
+  var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+
+
+
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+      </script>
+</body>
+
+</html>
