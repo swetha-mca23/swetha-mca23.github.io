@@ -8,7 +8,10 @@
 #one {
   background-color: black;
 }
-
+#sidemenu{
+  position: fixed;
+  padding-left: 600px;
+}
 span {
   color: yellow;
 }
